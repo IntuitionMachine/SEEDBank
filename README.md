@@ -1,5 +1,7 @@
-# SEEDBank
-Sample ROCm Tensorflow Projects
+# Curated Tensorflow Projects 
+
+Sample Deep Learning projects that have been tested in AMD RoCM 2.9 Tensorflow 1.14 
+
 
 **Instructions**
 
