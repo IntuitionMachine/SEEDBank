@@ -9,6 +9,8 @@ These projects assume that you have installed RoCM and you have Docker.  The run
 
 * Clone this repository
 
+`git clone https://github.com/IntuitionMachine/SEEDBank`
+
 * Untar the project_repo.tar file:
 
 `tar -xvf project_repo.tar`
