@@ -1,0 +1,10 @@
+version: '3'
+services:
+  knowledge_repo:
+    image: "intuitionmachine/knowledge_repo"
+    ports:
+      - "7000:7000"
+    volumes:
+      - "./knowledge-repo/project_repo:/root/workspace/project_repo"
+    command: knowledge_repo --repo /root/workspace/project_repo runserver  
+

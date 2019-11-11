@@ -1,0 +1,28 @@
+version: '3'
+services:
+  knowledge_repo:
+    image: "knowledge_repo"
+    ports:
+      - "7000:7000"
+    volumes:
+      - "./knowledge-repo/project_repo:/root/workspace/project_repo"
+    command: knowledge_repo --repo /root/workspace/project_repo runserver 
+  tensorflow:
+    image: "jupyter/tensorflow-notebook"
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./SEEDBank:/home/jovyan/work"
+      - "~/dockerx:/dockerx"
+    devices:
+      - "/dev/kfd"
+      - "/dev/dri"
+    cap_add:
+      - SYS_PTRACE
+    network_mode: "host"
+    group_add: "users"
+    user: ${UID}:${GID}
+    security_opt:
+      - seccomp=unconfined
+    command: jupyter notebook --NotebookApp.token='' --allow-root
+

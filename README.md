@@ -1,6 +1,14 @@
 # SEEDBank
 Sample ROCm Tensorflow Projects
 
-##Instructions##
+**Instructions**
+
+clone this repository
+
+run: docker compose up &
+
+run: ./start_tensorflow.sh
+
+
 
  
