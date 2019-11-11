@@ -1,2 +1,6 @@
 # SEEDBank
-Sample ROCm Tensorflow Projects 
+Sample ROCm Tensorflow Projects
+
+##Instructions##
+
+ 
