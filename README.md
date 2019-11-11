@@ -2,6 +2,8 @@
 
 Sample Deep Learning projects that have been tested in AMD RoCM 2.9 Tensorflow 1.14 
 
+These projects assume that you have installed RoCM and you have Docker.  The running application assumes ports 8888 and 7000 to be available. 
+
 
 **Instructions**
 
