@@ -13,6 +13,14 @@ run the docker compose file in the background:
 
 docker-compose up &
 
+make a new directory 'jovyan':
+
+mkdir jovyan
+
+change permissions of jovyan:
+
+chmod 775 jovyan
+
 run the rocm tensorflow container:
 
 ./start_tensorflow.sh
