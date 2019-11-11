@@ -5,9 +5,20 @@ Sample ROCm Tensorflow Projects
 
 clone this repository
 
-run: docker compose up &
+untar the project_repo.tar file:
 
-run: ./start_tensorflow.sh
+tar -xvf project_repo.tar
+
+run the docker compose file in the background:
+
+docker-compose up &
+
+run the rocm tensorflow container:
+
+./start_tensorflow.sh
+
+point browser to localhost:7000
+
 
 
 
