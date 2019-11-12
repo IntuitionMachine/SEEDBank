@@ -15,7 +15,7 @@ The Docker images for this application can be found here: https://hub.docker.com
 
 * Untar the project_repo.tar file:
 
-`tar -xvf project_repo.tar`
+`cd SEEDBank; tar -xvf project_repo.tar`
 
 * Run the docker compose file in the background:
 
