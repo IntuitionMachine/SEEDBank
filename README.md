@@ -21,13 +21,9 @@ The Docker images for this application can be found here: https://hub.docker.com
 
 `docker-compose up &`
 
-* Create a new directory 'jovyan':
+* Create a new directory 'jovyan' and hange permissions of jovyan:
 
-`mkdir jovyan`
-
-* Change permissions of jovyan:
-
-`chmod 775 jovyan`
+`mkdir jovyan; chmod 775 jovyan`
 
 * Run the rocm tensorflow container:
 
