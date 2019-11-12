@@ -35,7 +35,10 @@ The Docker images for this application can be found here: https://hub.docker.com
 
 * Point your browser to localhost:7000
 
+Note that you can run everything using:
 
+`docker-compose -f docker-compose-tf1.15.yml up`
 
+The only issue is that you have to install missing python packages. 
 
  
